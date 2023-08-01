@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header {
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav li {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  nav li.active {
+    font-weight: bold;
+  }
+  
+ 
+  .content {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background: #f0f0f0;
+    padding: 10px;
+  }
+  
+  
