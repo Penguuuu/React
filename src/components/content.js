@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-import myPhoto from "./img/self.jpg"; // Import the image
+import "../index.css";
+import myPhoto from "../img/self.jpg"; // Import the image
 
 const AboutMe = () => {
   return (
@@ -10,8 +10,7 @@ const AboutMe = () => {
         <img src={myPhoto} alt="Profile Picture" className="SelfImg" />
         <p>
           {/* Add your short bio here */}
-          Hi, I'm [Your Name], a passionate web developer with expertise in React.
-          I love building single-page applications and exploring new technologies.
+          Hello, my name is Peng. This is my portfolio. Thanks for viewing it!
         </p>
       </div>
     </section>
