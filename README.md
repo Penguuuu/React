@@ -1,6 +1,6 @@
 # React Portofolio
 
-<img src=".\React\src\img\screenshot.jpg" width="500" height="500"> 
+<img src=".\src\img\screenshot.jpg" width="500" height="500"> 
 
 #Description
 Using react to create a portfolio
