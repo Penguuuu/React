@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
-import './index.css'; // Make sure this line is importing the combined CSS file
-import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome CSS
+import './index.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 ReactDOM.render(
   <React.StrictMode>

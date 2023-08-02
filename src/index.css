@@ -1,5 +1,9 @@
 /* contains all the styling for the page */
 
+p {
+  font-size: 25px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -68,7 +72,7 @@ footer {
   margin-right: 20px;
 }
 
-/* each sections styling */
+/* each sections in contact styling */
 section {
   color: white;
   margin-bottom: 20px;
@@ -81,9 +85,43 @@ section {
 .about-section {
   background-color: teal;
 }
-.contact-section {
+.resumeContent {
   background-color: purple;
+}
+
+
+.resume-section .resume-Info{
+font-size: 20px;
 }
 .resume-section {
   background-color: teal;
+  font-size: 24px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+/* Navi */
+nav {
+  padding: 5px;
+}
+
+nav li {
+  cursor: pointer;
+  padding: 4px 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav li:hover {
+  background-color: #ccc;
+}
+
+nav li.active {
+  font-weight: bold;
+  background-color: #555;
+  color: white;
 }
