@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navigation = ({ selectedSection, onNavClick }) => {
-  const navTitles = ["About Me", "Portfolio", "Contact", "Resume"];
+  const navTitles = ["About Me", "Contact", "Resume"];
 
   return (
     <nav>

@@ -4,7 +4,7 @@ import myPhoto from "../img/self.jpg"; // Import the image
 
 const AboutMe = () => {
   return (
-    <section>
+    <section id="aboutSection"> {/* Add the id here */}
       <h2>About Me</h2>
       <div className="profile-container">
         <img src={myPhoto} alt="Profile Picture" className="SelfImg" />
@@ -17,11 +17,12 @@ const AboutMe = () => {
   );
 };
 
+
 const Contact = () => {
   return (
-    <section className="content-section">
+    <section className="content-section" id="contactSection">
       <h2>Contact</h2>
-      {/* Add a contact form with fields for name, email address, and message */}
+      <p>Email: Email@email.com</p>
     </section>
   );
 };
@@ -30,7 +31,7 @@ const Resume = () => {
   return (
     <section className="content-section">
       <h2>Resume</h2>
-      {/* Add a link to a downloadable resume and list of proficiencies */}
+      <p>No resume entered - will add at a later date</p>
     </section>
   );
 };
