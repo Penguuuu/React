@@ -1,10 +1,9 @@
 import React from "react";
-import "./assets/style/header.css";
 
 const Header = () => {
   return (
     <header>
-      <h1>Developer's Name</h1>
+      <h1>Peng Vang</h1>
     </header>
   );
 };
