@@ -1,1 +1,9 @@
-# React
+# React Portofolio
+
+<img src="../img/screenshot.png" width="500" height="500"> 
+
+#Description
+Using react to create a portfolio
+Links to my profiles and ways to contact me
+
+
